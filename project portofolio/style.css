@@ -1,0 +1,82 @@
+:root {
+  --hijau: #004643;
+  --muda: #abd1c6;
+  --hijaugelap: #001e1d;
+  --kuning: #f9bc60;
+  --abu: #e8e4e6;
+  --shadow: 0 2px rgb(2 2 2 2 / 0.5);
+}
+
+.navbar {
+  background-color: var(--hijau);
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-color: var(--muda);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: var(--hijaugelap);
+}
+
+.content {
+  padding: 4rem;
+  background-color: var(--hijaugelap);
+}
+.content h2,
+.content p {
+  color: var(--abu);
+}
+
+.project {
+  padding: 5rem;
+  background-color: var(--abu);
+}
+
+.project h2, 
+.project p {
+  color: var(--hijaugelap);
+}
+
+.kontak{
+  padding: 3rem;
+  background-color: var(--muda);
+}
+
+.kontak h2, form{
+  color: var(--hijaugelap);
+}
+
+.btn {
+  background-color:var(--kuning);
+  color:var(--hijau);
+}
+
+.btn:hover {
+  background-color:var(--abu);
+  color:var(--hijau);
+}
+
+footer {
+  padding: 3rem;
+  background-color: var(--hijau);
+  color: white;
+}
+footer a {
+  color: var(--pink);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--kuning)
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+  margin: 0.5rem;
+}
